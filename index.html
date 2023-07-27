@@ -29,8 +29,8 @@
 
 </head>
 
-<body class="max-w-[1920] max-auto">
-    <header class="w-10/12 mx-auto">
+<body class="max-w-[1920px] max-auto">
+    <header class="w-11/12 lg:w-10/12 mx-auto">
 
         <nav class="my-7">
 
@@ -214,12 +214,13 @@
 
     </header>
 
-    <main class="w-10/12 mx-auto">
+    <main class="w-11/12 lg:w-10/12 mx-auto">
 
         <section class="flex justify-between flex-col lg:flex-row my-5">
             <div>
-                <h2 class="font-bold text-3xl text-black">Deal of the day</h2>
-                <p class="text-xm text-neutral-400 pt-3">Contrary to popular belief, is not simply random text. It
+                <h2 class="font-bold text-3xl text-black text-center lg:text-left">Deal of the day</h2>
+                <p class="text-xm text-neutral-400 pt-3 text-center lg:text-left">Contrary to popular belief, is not
+                    simply random text. It
                     has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.
                 </p>
             </div>
@@ -282,7 +283,7 @@
                             <i class="fa-regular fa-star"></i>
                         </div>
                     </div>
-           
+
                     <!-- Open the modal using ID.showModal() method -->
                     <button class="text-red-400" onclick="my_modal_1.showModal()">Details</button>
                     <dialog id="my_modal_1" class="modal">
@@ -292,8 +293,9 @@
                             </figure>
                             <div class="card-body items-center text-center">
                                 <h2 class="card-title font-bold text-xl">Apples</h2>
-                                <p class="pt-3 text-neutral-400">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-            
+                                <p class="pt-3 text-neutral-400">Professional employees are there for you to pick the
+                                    most amazing and fresh fruits.</p>
+
                                 <div class="text-center mb-10 pt-5">
                                     <div class="rating rating-lg rating-half text-red-400 text-2xl">
                                         <i class="fa-solid fa-star"></i>
@@ -303,11 +305,11 @@
                                         <i class="fa-regular fa-star"></i>
                                     </div>
                                 </div>
-                            <div class="modal-action">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button class="btn  btn-outline btn-error">Close</button>
-                                <button class="btn text-white bg-red-400">Buy Now</button>
-                            </div>
+                                <div class="modal-action">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button class="btn  btn-outline btn-error">Close</button>
+                                    <button class="btn text-white bg-red-400">Buy Now</button>
+                                </div>
                         </form>
                     </dialog>
 
@@ -333,33 +335,34 @@
                         </div>
                     </div>
 
-<!-- Open the modal using ID.showModal() method -->
-<button class="text-red-400" onclick="my_modal_2.showModal()">Details</button>
-<dialog id="my_modal_2" class="modal">
-    <form method="dialog" class="modal-box">
-        <figure class="px-10 pt-10">
-            <img src="images/fruit7.png" alt="Shoes" class="rounded-xl h-[100px]" />
-        </figure>
-        <div class="card-body items-center text-center">
-            <h2 class="card-title font-bold text-xl">Orange</h2>
-            <p class="pt-3 text-neutral-400">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <!-- Open the modal using ID.showModal() method -->
+                    <button class="text-red-400" onclick="my_modal_2.showModal()">Details</button>
+                    <dialog id="my_modal_2" class="modal">
+                        <form method="dialog" class="modal-box">
+                            <figure class="px-10 pt-10">
+                                <img src="images/fruit7.png" alt="Shoes" class="rounded-xl h-[100px]" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title font-bold text-xl">Orange</h2>
+                                <p class="pt-3 text-neutral-400">Professional employees are there for you to pick the
+                                    most amazing and fresh fruits.</p>
 
-            <div class="text-center mb-10 pt-5">
-                <div class="rating rating-lg rating-half text-red-400 text-2xl">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                </div>
-            </div>
-        <div class="modal-action">
-            <!-- if there is a button in form, it will close the modal -->
-            <button class="btn  btn-outline btn-error">Close</button>
-            <button class="btn text-white bg-red-400">Buy Now</button>
-        </div>
-    </form>
-</dialog>
+                                <div class="text-center mb-10 pt-5">
+                                    <div class="rating rating-lg rating-half text-red-400 text-2xl">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="modal-action">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button class="btn  btn-outline btn-error">Close</button>
+                                    <button class="btn text-white bg-red-400">Buy Now</button>
+                                </div>
+                        </form>
+                    </dialog>
 
                 </div>
             </div>
@@ -383,33 +386,34 @@
                         </div>
                     </div>
 
-<!-- Open the modal using ID.showModal() method -->
-<button class="text-red-400" onclick="my_modal_3.showModal()">Details</button>
-<dialog id="my_modal_3" class="modal">
-    <form method="dialog" class="modal-box">
-        <figure class="px-10 pt-10">
-            <img src="images/fruit8.png" alt="Shoes" class="rounded-xl h-[100px]" />
-        </figure>
-        <div class="card-body items-center text-center">
-            <h2 class="card-title font-bold text-xl">Red-Dragon</h2>
-            <p class="pt-3 text-neutral-400">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <!-- Open the modal using ID.showModal() method -->
+                    <button class="text-red-400" onclick="my_modal_3.showModal()">Details</button>
+                    <dialog id="my_modal_3" class="modal">
+                        <form method="dialog" class="modal-box">
+                            <figure class="px-10 pt-10">
+                                <img src="images/fruit8.png" alt="Shoes" class="rounded-xl h-[100px]" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title font-bold text-xl">Red-Dragon</h2>
+                                <p class="pt-3 text-neutral-400">Professional employees are there for you to pick the
+                                    most amazing and fresh fruits.</p>
 
-            <div class="text-center mb-10 pt-5">
-                <div class="rating rating-lg rating-half text-red-400 text-2xl">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                </div>
-            </div>
-        <div class="modal-action">
-            <!-- if there is a button in form, it will close the modal -->
-            <button class="btn  btn-outline btn-error">Close</button>
-            <button class="btn text-white bg-red-400">Buy Now</button>
-        </div>
-    </form>
-</dialog>
+                                <div class="text-center mb-10 pt-5">
+                                    <div class="rating rating-lg rating-half text-red-400 text-2xl">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="modal-action">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button class="btn  btn-outline btn-error">Close</button>
+                                    <button class="btn text-white bg-red-400">Buy Now</button>
+                                </div>
+                        </form>
+                    </dialog>
 
                 </div>
             </div>
@@ -442,8 +446,9 @@
                             </figure>
                             <div class="card-body items-center text-center">
                                 <h2 class="card-title font-bold text-xl">Banana</h2>
-                                <p class="pt-3 text-neutral-400">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-            
+                                <p class="pt-3 text-neutral-400">Professional employees are there for you to pick the
+                                    most amazing and fresh fruits.</p>
+
                                 <div class="text-center mb-10 pt-5">
                                     <div class="rating rating-lg rating-half text-red-400 text-2xl">
                                         <i class="fa-solid fa-star"></i>
@@ -453,11 +458,11 @@
                                         <i class="fa-regular fa-star"></i>
                                     </div>
                                 </div>
-                            <div class="modal-action">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button class="btn  btn-outline btn-error">Close</button>
-                                <button class="btn text-white bg-red-400">Buy Now</button>
-                            </div>
+                                <div class="modal-action">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button class="btn  btn-outline btn-error">Close</button>
+                                    <button class="btn text-white bg-red-400">Buy Now</button>
+                                </div>
                         </form>
                     </dialog>
 
@@ -540,15 +545,17 @@
             </div>
 
             <div class="grid lg:grid-cols-3 gap-2 items-center my-12">
-
+                <div class="block lg:hidden">
+                    <img src="./images/whychoose1.png" alt="">
+                </div>
                 <div class="space-y-12">
                     <div class="flex items-center space-x-6 flex-col lg:flex-row">
                         <div class="bg-[#1212121a] flex justify-center items-center p-2 rounded-3xl">
                             <i class="fa-solid fa-users-line text-2xl "></i>
                         </div>
-                        <div>
+                        <div class="text-center lg:text-left">
                             <h1 class="font-bold text-black text-2xl">Dedicated Team</h1>
-                            <hr class="w-[100px] border-2 border-solid mt-3">
+                            <hr class="w-[100px] border-2 border-solid mt-3 hidden lg:block">
                             <p class="text-neutral-400 text-xs pt-3">Professional employees are there for you to pick
                                 the most amazing and fresh fruits.</p>
                         </div>
@@ -558,9 +565,9 @@
                         <div class="bg-[#1212121a] flex justify-center items-center p-2 rounded-3xl ">
                             <i class="fa-regular fa-heart text-3xl"></i>
                         </div>
-                        <div>
+                        <div class="text-center lg:text-left">
                             <h1 class="font-bold text-2xl text-black">Fresh is Best</h1>
-                            <hr class="w-[100px] border-2 border-solid mt-3">
+                            <hr class="w-[100px] border-2 border-solid mt-3 hidden lg:block">
                             <p class="text-neutral-400 text-xs pt-3">Professional employees are there for you to pick
                                 the most amazing and fresh fruits.</p>
                         </div>
@@ -570,24 +577,24 @@
                         <div class="bg-[#1212121a] flex justify-center items-center p-2 rounded-3xl ">
                             <i class="fa-solid fa-gift text-3xl"></i>
                         </div>
-                        <div>
+                        <div class="text-center lg:text-left">
                             <h1 class="font-bold text-2xl text-black">Gift Certificates</h1>
-                            <hr class="w-[100px] border-2 border-solid mt-3">
+                            <hr class="w-[100px] border-2 border-solid mt-3 hidden lg:block">
                             <p class="text-neutral-400 text-xs pt-3">Professional employees are there for you to pick
                                 the most amazing and fresh fruits.</p>
                         </div>
                     </div>
                 </div>
 
-                <div>
+                <div class="hidden lg:block">
                     <img src="./images/whychoose1.png" alt="">
                 </div>
 
                 <div class="space-y-12">
-                    <div class="flex items-center space-x-6 text-end flex-col-reverse lg:flex-row">
-                        <div class="flex flex-col items-end">
+                    <div class="flex items-center space-x-6 text-center lg:text-end flex-col-reverse lg:flex-row">
+                        <div class="flex flex-col items-center lg:items-end">
                             <h1 class="font-bold text-2xl text-black">Integrated Supplier</h1>
-                            <hr class="w-[100px] border-2 border-solid mt-3">
+                            <hr class="w-[100px] border-2 border-solid mt-3 hidden lg:block">
                             <p class="text-neutral-400 text-xs pt-3">Professional employees are there for you to pick
                                 the most amazing and fresh fruits.</p>
                         </div>
@@ -596,10 +603,10 @@
                         </div>
 
                     </div>
-                    <div class="flex items-center space-x-6 text-end flex-col-reverse lg:flex-row">
-                        <div class="flex flex-col items-end">
+                    <div class="flex items-center space-x-6 text-center lg:text-end flex-col-reverse lg:flex-row">
+                        <div class="flex flex-col items-center lg:items-end">
                             <h1 class="font-bold text-2xl text-black">Sustainable Practice</h1>
-                            <hr class="w-[100px] border-2 border-solid mt-3">
+                            <hr class="w-[100px] border-2 border-solid mt-3 hidden lg:block">
                             <p class="text-neutral-400 text-xs pt-3">Professional employees are there for you to pick
                                 the most amazing and fresh fruits.</p>
                         </div>
@@ -608,10 +615,10 @@
                         </div>
 
                     </div>
-                    <div class="flex items-center space-x-6 text-end flex-col-reverse lg:flex-row">
-                        <div class="flex flex-col items-end">
-                            <h1 class="font-bold text-2xl text-black">The Benefits Only</h1>
-                            <hr class="w-[100px] border-2 border-solid mt-3">
+                    <div class="flex items-center space-x-6 text-center lg:text-end flex-col-reverse lg:flex-row">
+                        <div class="flex flex-col items-center lg:items-end">
+                            <h1 class="font-bold text-2xl text-black text-center">The Benefits Only</h1>
+                            <hr class="w-[100px] border-2 border-solid mt-3 hidden lg:block">
                             <p class="text-neutral-400 text-xs pt-3">Professional employees are there for you to pick
                                 the most amazing and fresh fruits.</p>
                         </div>
